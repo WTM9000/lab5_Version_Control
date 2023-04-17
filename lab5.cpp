@@ -14,7 +14,7 @@ string longest_common_substring(string str1, string str2) { // First commit to s
     for (int i = 0; i <= n1; i++) { // Third commit to second_branch
         for (int j = 0; j <= n2; j++) {
             if (i == 0 || j == 0) {
-                dp[i][j] = 0;
+                dp[i][j] = 0; // Fourth commit to second_branch
             } else if (str1[i-1] == str2[j-1]) {
                 dp[i][j] = dp[i-1][j-1] + 1;
                 if (dp[i][j] > max_length) {

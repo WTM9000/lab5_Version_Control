@@ -18,7 +18,7 @@ string longest_common_substring(string str1, string str2) {
             } else if (str1[i-1] == str2[j-1]) {
                 dp[i][j] = dp[i-1][j-1] + 1;
                 if (dp[i][j] > max_length) {
-                    max_length = dp[i][j];
+                    max_length = dp[i][j]; // Fourth commit to first_branch
                     end_pos = i;
                 }
             } else { // Third commit to first_branch

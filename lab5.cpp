@@ -36,7 +36,7 @@ string longest_common_substring(string str1, string str2) {
 
 int main() {
     string str1 = "hello world";
-    string str2 = "hola mundo";
+    string str2 = "hola mundo"; // Second commit main
     string common_substring = longest_common_substring(str1, str2);
     cout << "Longest common substring: " << common_substring << endl;
     return 0;  // First commit main

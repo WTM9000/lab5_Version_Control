@@ -21,7 +21,7 @@ string longest_common_substring(string str1, string str2) {
                     max_length = dp[i][j];
                     end_pos = i;
                 }
-            } else {
+            } else { // Third commit to first_branch
                 dp[i][j] = 0;
             }
         } // Second commit to first_branch 

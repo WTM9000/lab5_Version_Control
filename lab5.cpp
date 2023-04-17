@@ -24,7 +24,7 @@ string longest_common_substring(string str1, string str2) {
             } else {
                 dp[i][j] = 0;
             }
-        }
+        } // Second commit to first_branch 
     }
 
     if (max_length == 0) { // First commit to first_branch

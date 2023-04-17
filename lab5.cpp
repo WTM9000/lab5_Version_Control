@@ -27,7 +27,7 @@ string longest_common_substring(string str1, string str2) {
         }
     }
 
-    if (max_length == 0) {
+    if (max_length == 0) { // First commit to first_branch
         return ""; 
     } else {
         return str1.substr(end_pos - max_length, max_length);

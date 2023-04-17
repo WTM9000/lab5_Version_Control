@@ -11,7 +11,7 @@ string longest_common_substring(string str1, string str2) { // First commit to s
     int max_length = 0;
     int end_pos = 0; // 
 
-    for (int i = 0; i <= n1; i++) { 
+    for (int i = 0; i <= n1; i++) { // Third commit to second_branch
         for (int j = 0; j <= n2; j++) {
             if (i == 0 || j == 0) {
                 dp[i][j] = 0;
